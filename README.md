@@ -1,11 +1,11 @@
 # EPCIS Synthetic Supply Chain Data Generator KNIME Node
 
 ## Overview
-This repository contains a KNIME node designed for AI/ML scientists and supply chain analysts to generate synthetic supply chain data compliant with GS1 EPCIS V2 standards. The node enables the creation of realistic, interconnected datasets mimicking food supply chain operations. Generated datasets support forward and backward tracing, network analysis, and compliance with regulatory requirements such as FDA’s FSMA Section 204. The synthetic data is ideal for developing predictive analytics, machine learning models, and anomaly detection systems to enhance traceability, optimize recall management, and ensure food safety during outbreaks.
+This repository contains a KNIME node developed by 221BT, designed for AI/ML scientists and supply chain analysts to generate synthetic supply chain data compliant with GS1 EPCIS V2 standards. The node enables the creation of realistic, interconnected datasets that mimic food supply chain operations. These generated datasets support forward and backward tracing, network analysis, and compliance with regulatory requirements such as FDA’s FSMA Section 204. The synthetic data is ideal for developing predictive analytics, machine learning models, and anomaly detection systems to enhance traceability, optimize recall management, and ensure food safety during outbreaks.
 
-The node was developed by 221BT as part of its mission to provide innovative solutions for supply chain visibility and efficiency. The dataset’s compliance with GS1 EPCIS V2, validated using NIRA’s Oliot EPCIS X, ensures standardization, interoperability, and regulatory adherence, making it a powerful tool for both research and industry applications.
+The node’s compliance with GS1 EPCIS V2, validated using NIRA’s Oliot EPCIS X, ensures standardization, interoperability, and regulatory adherence, making it a powerful tool for both research and industry applications. Developed as part of 221BT’s mission to provide innovative solutions for supply chain visibility and efficiency, this tool unlocks a wide range of use cases, from simulating complex supply chain scenarios to training AI models for emerging challenges. Whether you’re researching supply chain resilience, testing compliance systems, or building predictive models for risk management, this node provides a robust foundation for experimentation and innovation.
 
-In addition to its core functionality, this tool unlocks a wide range of use cases, from simulating complex supply chain scenarios to training AI models for emerging challenges. Whether you’re researching supply chain resilience, testing compliance systems, or building predictive models for risk management, this node provides a robust foundation for experimentation and innovation.
+Additionally, we have created a complementary KNIME node that converts EPCIS documents into the BfR FoodChain-Lab format. This allows users to leverage the advanced capabilities of FoodChain-Lab’s KNIME nodes for in-depth supply chain analysis and foodborne outbreak investigation. FoodChain-Lab is a specialized KNIME extension that facilitates trace-back and trace-forward analysis of suspicious food items along supply chains, aiding in the investigation of foodborne disease outbreaks. It supports data collection, handling, and analysis of food delivery networks, offering features such as geographical visualization, clustering, and geocoding. Users can import supply chain data, visualize delivery networks, perform tracing without visualization, and cluster stations geographically based on attributes like location and business type. For more detailed information about FoodChain-Lab, visit https://github.com/SiLeBAT/BfROpenLab.
 
 ## Getting Started
 
@@ -19,8 +19,10 @@ In addition to its core functionality, this tool unlocks a wide range of use cas
 6. If a window "Trust Authorities" pops up, please tick the checkbox in the upper left corner next to "https://github.com/221bt" and click **Trust Selected**.
 7. If a window pops up asking whether you trust unsigned content, please tick the checkbox in the upper left corner next to “Unsigned” and click **Trust Selected**.
 8. When the installation completes, restart KNIME.
-9. When the KNIME interface has shown up, you should be able to see an item "EPCIS Data Generator" in the **Node Repository** view in the bottom-left corner. 
+10. For FCL Converter, repeat step 2 to step 8. Replace repository name with "FCL Converter" and URL: https://github.com/221bt/knime_extension/raw/fcl_release
+9. When the KNIME interface has shown up, you should be able to see an item "EPCIS Data Generator" and "FCL Converter" in the **Node Repository** view in the bottom-left corner. To run the full example workflow, please install FoodChain-Lab KNIME extension from [this site](https://foodrisklabs.bfr.bund.de/installation/)
 ![Installation Result](img/Step_9.png)
+
 
 ## Example
 ![Exmaple 1](img/Example_1.png)
