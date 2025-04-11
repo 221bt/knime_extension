@@ -7,6 +7,18 @@ The node’s compliance with GS1 EPCIS V2, validated using NIRA’s Oliot EPCIS 
 
 Additionally, we have created a complementary KNIME node that converts EPCIS documents into the BfR FoodChain-Lab format. This allows users to leverage the advanced capabilities of FoodChain-Lab’s KNIME nodes for in-depth supply chain analysis and foodborne outbreak investigation. FoodChain-Lab is a specialized KNIME extension that facilitates trace-back and trace-forward analysis of suspicious food items along supply chains, aiding in the investigation of foodborne disease outbreaks. It supports data collection, handling, and analysis of food delivery networks, offering features such as geographical visualization, clustering, and geocoding. Users can import supply chain data, visualize delivery networks, perform tracing without visualization, and cluster stations geographically based on attributes like location and business type. For more detailed information about FoodChain-Lab, visit https://github.com/SiLeBAT/BfROpenLab.
 
+## Changelog
+### EPCIS Data Generator
+#### v0.1.2:
+- Move the extension to *Community Node -> 221bt* based on Knime Document recommandation.
+- Fix Location Masterdata parsing error and assign role to each location based on 204 rules
+
+### FCL Converter
+#### v0.1.2:
+- Move the extension to *Community Node -> 221bt* based on Knime Document recommandation.
+- Support JSON input.
+- Add Location Masterdata role support.
+
 ## Getting Started
 
 1. Download and install/unzip the latest version of [KNIME](https://www.knime.com/downloads).
@@ -20,7 +32,7 @@ Additionally, we have created a complementary KNIME node that converts EPCIS doc
 7. If a window pops up asking whether you trust unsigned content, please tick the checkbox in the upper left corner next to “Unsigned” and click **Trust Selected**.
 8. When the installation completes, restart KNIME.
 10. For FCL Converter, repeat step 2 to step 8. Replace repository name with "FCL Converter" and URL: https://github.com/221bt/knime_extension/raw/fcl_release
-9. When the KNIME interface has shown up, you should be able to see an item "EPCIS Data Generator" and "FCL Converter" in the **Node Repository** view in the bottom-left corner. To run the full example workflow, please install FoodChain-Lab KNIME extension from [this site](https://foodrisklabs.bfr.bund.de/installation/)
+9. When the KNIME interface has shown up, you should be able to see an item "EPCIS Data Generator" and "FCL Converter" in the **Node Repository** view in the bottom-left corner.And you can find them under *Community Node -> 221bt*. To run the full example workflow, please install FoodChain-Lab KNIME extension from [this site](https://foodrisklabs.bfr.bund.de/installation/)
 ![Installation Result](img/Step_9.png)
 
 
