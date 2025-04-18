@@ -1,0 +1,10 @@
+name: fcl_converter # Will be concatenated with the group_id to an ID
+author: Xin Liu, Bohan Niu
+env_yml_path: D:\Document\Precise\OFPR\knime-extension\src\FCL_converter\conda_env.yml # This is necessary for bundling, but not needed during development
+extension_module: main # The .py Python module containing the nodes of your extension
+description: FCL Data Converter # Human readable bundle name / description
+long_description: Convert EPCIS 2.0 Document to FoodChain Lab Document
+group_id: 221bt.knime
+version: 0.1.2 # Version of this Python node extension
+vendor: 221bt
+license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
