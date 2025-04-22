@@ -1,6 +1,6 @@
 name: fcl_converter # Will be concatenated with the group_id to an ID
 author: Xin Liu, Bohan Niu
-env_yml_path: org_knime_pythonscripting
+bundled_env_name: org_knime_pythonscripting # This is necessary for bundling, but not needed during development
 extension_module: main # The .py Python module containing the nodes of your extension
 description: FCL Data Converter # Human readable bundle name / description
 long_description: Convert EPCIS 2.0 Document to FoodChain Lab Document
