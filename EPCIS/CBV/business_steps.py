@@ -1,0 +1,48 @@
+from enum import Enum
+
+
+class BusinessSteps(Enum):
+    '''
+    CVB 2.0 Business Steps as defined in section 7.1 of the standard.
+    '''
+    accepting = 'accepting'
+    arriving = 'arriving'
+    assembling = 'assembling'
+    collecting = 'collecting'
+    commissioning = 'commissioning'
+    consigning = 'consigning'
+    creating_class_instance = 'creating_class_instance'
+    cycle_counting = 'cycle_counting'
+    decommissioning = 'decommissioning'
+    departing = 'departing'
+    destroying = 'destroying'
+    disassembling = 'disassembling'
+    dispensing = 'dispensing'
+    entering_exit = 'entering_exit'
+    ingholding = 'ingholding'
+    inspecting = 'inspecting'
+    installing = 'installing'
+    killing = 'killing'
+    loading = 'loading'
+    other = 'other'
+    packing = 'packing'
+    picking = 'picking'
+    receiving = 'receiving'
+    removing = 'removing'
+    repackaging = 'repackaging'
+    repairing = 'repairing'
+    replacing = 'replacing'
+    reserving = 'reserving'
+    retail_selling = 'retail_selling'
+    shipping = 'shipping'
+    staging_outbound = 'staging_outbound'
+    stock_taking = 'stock_taking'
+    stocking = 'stocking'
+    storing = 'storing'
+    transporting = 'transporting'
+    unloading = 'unloading'
+    unpacking = 'unpacking'
+    void_shipping = 'void_shipping'
+
+    def __str__(self):
+        return self.value

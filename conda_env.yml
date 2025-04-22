@@ -1,8 +1,0 @@
-name: epcis_knime_env
-channels:
-  - knime
-  - conda-forge
-dependencies:
-  - python=3.10
-  - knime-extension
-  - knime-python-base
