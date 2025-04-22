@@ -1,0 +1,3419 @@
+{
+    "type": "EPCISDocument",
+    "schemaVersion": "2.0",
+    "creationDate": "2025-04-11T16:21:39.588524+00:00",
+    "epcisHeader": {
+        "epcisMasterData": {
+            "vocabularyList": [
+                {
+                    "type": "urn:epcglobal:epcis:vtype:EPCClass",
+                    "vocabularyElementList": [
+                        {
+                            "id": "https://id.gs1.org/01/74016250327281",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#04ef2d3d"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/74015305730922",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#b84c5037"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/44017792338314",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#d1fcd248"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/24017714626471",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#88442678"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/94013403203199",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#8fdfdf6f"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/24014500852984",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#ecfd92c4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/94015927117983",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#444762ad"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/84010210336501",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#75007c2f"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/01/74015009757867",
+                            "attributes": [
+                                {
+                                    "id": "cbvmda:descriptionShort",
+                                    "attribute": "product#5357864e"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "urn:epcglobal:epcis:vtype:Location",
+                    "vocabularyElementList": [
+                        {
+                            "id": "https://id.gs1.org/414/0012511905736/254/97592",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "originator"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Black-Stephens"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "00477 Schwartz Mountains Suite 922"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Lake Lauraburgh"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Nevada"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "91457"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:39.43534,-84.20299"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012012981093/254/63334",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "originator"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Gonzalez, Bradford and Patterson"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "4358 Conner Plain Suite 533"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Samanthatown"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Florida"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "43957"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:33.35283,-111.78903"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012578968231/254/79063",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "originator"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Butler Ltd"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "7220 Clinton Coves"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "South Jamesmouth"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Oregon"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "74245"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:40.24537,-75.64963"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012131899415/254/68107",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "originator"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Mathews-Andrade"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "9086 Edwards Lock"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "South Mary"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Idaho"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "29963"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:40.68066,-73.47429"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012598136801/254/99798",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "originator"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Perry Group"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "910 Christina Manor Apt. 175"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Lake Seantown"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Arizona"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "96385"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:47.80527,-122.24064"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012737315296/254/04070",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Gordon-Li"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "84231 Shawn Parkway Suite 397"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Lisatown"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Missouri"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "74333"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:41.15376,-87.88754"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012742973573/254/10897",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Larsen LLC"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "395 Marissa Dam Apt. 446"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "West Kristen"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Connecticut"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "81693"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:39.33427,-76.43941"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012787818525/254/13063",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Wallace, Hess and Smith"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "817 Paul Gateway Suite 620"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "North Ericaland"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Wyoming"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "62659"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:33.03699,-117.29198"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012544223876/254/45164",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Walker, Garcia and Bell"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "605 Keith Crescent Apt. 065"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Gravesside"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Maryland"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "46381"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:42.24113,-88.3162"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012647028545/254/90793",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Cole and Sons"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "2048 Meza Lane Apt. 251"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Mercershire"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Alaska"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "27305"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:39.08367,-84.50855"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012504626860/254/38002",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Branch Ltd"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "63051 Williams Trace"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Hicksfort"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Minnesota"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "31682"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:39.72943,-104.83192"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012437419270/254/33073",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Wilson, Oliver and Rodriguez"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "075 Clarke Parkways"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Ramirezside"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Oklahoma"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "54224"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:33.44872,-86.78777"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012424153194/254/21015",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Davila, Norman and Ibarra"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "768 Henry Landing Apt. 878"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Contrerasshire"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Michigan"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "74521"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:43.54072,-116.56346"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012369739187/254/64566",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Byrd and Sons"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "533 Mark Mountains"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Harveybury"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Iowa"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "29488"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:39.32288,-76.72803"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012189113419/254/82177",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "processor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Taylor Inc"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "66356 James Lane"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Elizabethmouth"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Oklahoma"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "16600"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:39.33427,-76.43941"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012708420486/254/05184",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "distributor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Campbell-Bowman"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "37125 Mclaughlin Freeway Suite 890"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "South Dustin"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Arkansas"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "42184"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:31.76212,-95.63079"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012787875818/254/12217",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "distributor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Ramos-Smith"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "161 Kristopher Port"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "East John"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Delaware"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "31248"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:33.03699,-117.29198"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012648345993/254/26666",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "distributor"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Francis Ltd"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "9007 Harrington Springs"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Benderview"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Nevada"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "59548"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:40.65538,-74.38987"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012967045369/254/44627",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "retailer"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Harris, Smith and Alexander"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "43972 Dean Turnpike"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "Pricemouth"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Illinois"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "36948"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:42.97086,-82.42491"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012205133285/254/71196",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "retailer"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Elliott Ltd"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "292 Jason Lodge Suite 309"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "New Megan"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Illinois"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "43362"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:38.17492,-122.2608"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012301242959/254/65188",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "retailer"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Douglas-Clay"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "62343 Lisa Point"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "South Judybury"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Louisiana"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "91613"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:36.91023,-121.75689"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "https://id.gs1.org/414/0012228227404/254/31490",
+                            "attributes": [
+                                {
+                                    "id": "fdaftr:role",
+                                    "attribute": "retailer"
+                                },
+                                {
+                                    "id": "cbvmda:name",
+                                    "attribute": "Thornton, Maynard and Mccoy"
+                                },
+                                {
+                                    "id": "cbvmda:streetAddressOne",
+                                    "attribute": "120 Martinez Lodge"
+                                },
+                                {
+                                    "id": "cbvmda:city",
+                                    "attribute": "New Vicki"
+                                },
+                                {
+                                    "id": "cbvmda:state",
+                                    "attribute": "Utah"
+                                },
+                                {
+                                    "id": "cbvmda:postalCode",
+                                    "attribute": "04750"
+                                },
+                                {
+                                    "id": "cbvmda:countryCode",
+                                    "attribute": "US"
+                                },
+                                {
+                                    "id": "cbvmda:geoLocation",
+                                    "attribute": "geo:30.5427,-97.54667"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "epcisBody": {
+        "eventList": [
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-01T14:43:33.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;2d234e2b077450d9470a6c4930d2fa0823dc1a99a918e58e8fe21c7d5ed3a6c0?ver=CBV2.0",
+                "action": "ADD",
+                "bizStep": "collecting",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012012981093/254/63334"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012012981093/254/63334"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-07T17:41:23.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;c4fff69dd81c053c34f8e7dfc58491b883fc3e47672c4ae7dfb741a70948e081?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "2d234e2b077450d9470a6c4930d2fa0823dc1a99a918e58e8fe21c7d5ed3a6c0"
+                ],
+                "action": "ADD",
+                "bizStep": "packing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012012981093/254/63334"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012012981093/254/63334"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-01T08:17:04.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;ed1f10ed576596098dc93c61c93d25862bcd148a41679c558429ef4e8fa9fd39?ver=CBV2.0",
+                "action": "ADD",
+                "bizStep": "collecting",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015305730922/10/44810",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-10T19:24:53.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;05f895e9e00d32674e7e026f2ebfd59b8ef8f543c83ce2391c4632a27b1783a3?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "ed1f10ed576596098dc93c61c93d25862bcd148a41679c558429ef4e8fa9fd39"
+                ],
+                "action": "ADD",
+                "bizStep": "packing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015305730922/10/44810",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-01T10:40:05.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;43c7b46ebe0dcd8aa88a3eb9592ae725ba480ca0c51b9f9b4bffd0678033a565?ver=CBV2.0",
+                "action": "ADD",
+                "bizStep": "collecting",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/44017792338314/10/76359",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-06T08:20:54.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;78ed47f0ac7ba0c3337816ad952e4c421cc4bc6720ed8b4c5cb75f566fc2b935?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "43c7b46ebe0dcd8aa88a3eb9592ae725ba480ca0c51b9f9b4bffd0678033a565"
+                ],
+                "action": "ADD",
+                "bizStep": "packing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/44017792338314/10/76359",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-01T12:01:15.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;2d3c39d9edbfd0082544d4c82636f2ebc05975c63e7e4ba14f5321fa018b6ee5?ver=CBV2.0",
+                "action": "ADD",
+                "bizStep": "collecting",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012131899415/254/68107"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012131899415/254/68107"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24017714626471/10/20568",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-06T13:03:57.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;46b87055db5185bb0d6134116a864800161d9f9c88e617aab4c731bad12579a9?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "2d3c39d9edbfd0082544d4c82636f2ebc05975c63e7e4ba14f5321fa018b6ee5"
+                ],
+                "action": "ADD",
+                "bizStep": "packing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012131899415/254/68107"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012131899415/254/68107"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24017714626471/10/20568",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-02T02:05:13.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;8b6709bd7e3e3e901f732febb3a4a976f1ebe8bdbadf5aa3974617755966945c?ver=CBV2.0",
+                "action": "ADD",
+                "bizStep": "collecting",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-05T02:57:19.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;fbaf2d86eec36da37943bb6ea5c4d13af990e5de12a0de8b152b90be02637cf2?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "8b6709bd7e3e3e901f732febb3a4a976f1ebe8bdbadf5aa3974617755966945c"
+                ],
+                "action": "ADD",
+                "bizStep": "packing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-11T13:04:27.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;8137bfef7b99a96a3edec666d13e96a208455b29f7c1753419b5ab1a0cdf7f40?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "c4fff69dd81c053c34f8e7dfc58491b883fc3e47672c4ae7dfb741a70948e081"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012012981093/254/63334"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012012981093/254/63334"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012012981093/254/63334"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012787818525/254/13063"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AggregationEvent",
+                "eventTime": "2024-01-13T09:03:24.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;fbe63034dc12214ed1ba5a5c7f43f7e9043dea213378f7eec54dc6691bf68e01?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "05f895e9e00d32674e7e026f2ebfd59b8ef8f543c83ce2391c4632a27b1783a3"
+                ],
+                "action": "ADD",
+                "bizStep": "assembling",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "parentID": "https://id.gs1.org/01/84015091934631/21/93665",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015305730922/10/44810",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-15T12:15:46.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;342ef399fabd8140030b0a402cfb576786f9b5f412376a4e972a4335f7ad3a36?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "fbe63034dc12214ed1ba5a5c7f43f7e9043dea213378f7eec54dc6691bf68e01"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012598136801/254/99798"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012598136801/254/99798"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/84015091934631",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-24T00:28:02.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;48c79a3234eb7c71dbaf9f7a02de1dc225fd6b2c00842d4df34f84153663db51?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "342ef399fabd8140030b0a402cfb576786f9b5f412376a4e972a4335f7ad3a36"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012598136801/254/99798"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/84015091934631",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AggregationEvent",
+                "eventTime": "2024-01-29T11:21:08.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;6f2c505b94d6f32386722c0c57dbc13716a62c98190e29c83c2c39f10c9e3d53?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "48c79a3234eb7c71dbaf9f7a02de1dc225fd6b2c00842d4df34f84153663db51"
+                ],
+                "action": "ADD",
+                "bizStep": "disassembling",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012598136801/254/99798"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "parentID": "https://id.gs1.org/01/84015091934631/21/93665",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015305730922/10/44810",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AggregationEvent",
+                "eventTime": "2024-01-07T03:20:39.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;be837a377f753bc50dd477ee1dc54492588f0c0c73617fdca88c24c4a50971a7?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "78ed47f0ac7ba0c3337816ad952e4c421cc4bc6720ed8b4c5cb75f566fc2b935"
+                ],
+                "action": "ADD",
+                "bizStep": "assembling",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "parentID": "https://id.gs1.org/01/34012753106509/21/18673",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/44017792338314/10/76359",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-09T05:15:35.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;8943f3c8fb7d0095a6469b64202abd80f0de6693e5a442c390cc9de6f0902300?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "be837a377f753bc50dd477ee1dc54492588f0c0c73617fdca88c24c4a50971a7"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012511905736/254/97592"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012511905736/254/97592"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/34012753106509",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-18T02:03:16.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;1aacd614621bb9aa2c4ba04ebe24b832d76e7138260e4eba252828af1b3524f6?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "8943f3c8fb7d0095a6469b64202abd80f0de6693e5a442c390cc9de6f0902300"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012511905736/254/97592"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/34012753106509",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AggregationEvent",
+                "eventTime": "2024-01-19T22:31:13.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;63ea27bdf882f79c9c9bf7e582fa295f7503bd748ea941151ac8fedb17ed2285?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "1aacd614621bb9aa2c4ba04ebe24b832d76e7138260e4eba252828af1b3524f6"
+                ],
+                "action": "ADD",
+                "bizStep": "disassembling",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012511905736/254/97592"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "parentID": "https://id.gs1.org/01/34012753106509/21/18673",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/44017792338314/10/76359",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-14T09:42:08.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;9c5bd10e84e029d52fa31f8ff85e0e6291311a956121b6289a662f3ddd803b59?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "46b87055db5185bb0d6134116a864800161d9f9c88e617aab4c731bad12579a9"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012131899415/254/68107"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012131899415/254/68107"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012131899415/254/68107"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24017714626471/10/20568",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AggregationEvent",
+                "eventTime": "2024-01-11T12:25:10.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;d39bbda6deb6a2bd404c6cc18fe9ca24678e906a9c6749220168054bd3f592be?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "fbaf2d86eec36da37943bb6ea5c4d13af990e5de12a0de8b152b90be02637cf2"
+                ],
+                "action": "ADD",
+                "bizStep": "assembling",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "parentID": "https://id.gs1.org/01/64010659685051/21/26079",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-21T01:11:28.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;0ed5d41a5514df03a98d03b38e442b91f135c5c2559838e4dc9f622cb5819989?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "d39bbda6deb6a2bd404c6cc18fe9ca24678e906a9c6749220168054bd3f592be"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012578968231/254/79063"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012578968231/254/79063"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/64010659685051",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-26T02:56:05.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;15740eba56827428ad676761ff6b12e5bd7f82a9fe2a051faa1cc7f488b5ab34?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "0ed5d41a5514df03a98d03b38e442b91f135c5c2559838e4dc9f622cb5819989"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012578968231/254/79063"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/64010659685051",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AggregationEvent",
+                "eventTime": "2024-02-02T11:41:47.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;fb78f7ccc507e06d51d147e6c2544b7ff8ca0ef65d36e341a373dbaed771a35f?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "15740eba56827428ad676761ff6b12e5bd7f82a9fe2a051faa1cc7f488b5ab34"
+                ],
+                "action": "ADD",
+                "bizStep": "disassembling",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012578968231/254/79063"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "parentID": "https://id.gs1.org/01/64010659685051/21/26079",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-11T13:30:12.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.608644+00:00",
+                "eventID": "ni:///sha-256;63d94b6f423d170feb3e312456e3b92cd469f153a72d1dce87730eeb1d65c10b?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "8137bfef7b99a96a3edec666d13e96a208455b29f7c1753419b5ab1a0cdf7f40"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012787818525/254/13063"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012787818525/254/13063"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012012981093/254/63334"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012787818525/254/13063"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-12T20:15:19.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;aaa9c2af2af620d833b4d3a46c9aad01aad738419fecee5fea162b34968b45ba?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "63d94b6f423d170feb3e312456e3b92cd469f153a72d1dce87730eeb1d65c10b"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012787818525/254/13063"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012787818525/254/13063"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012787818525/254/13063"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012504626860/254/38002"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-16T12:59:32.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;70405919c9a982220cc1ceba31b223333dcbd7649bc66fa0f354ce2042851469?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "9c5bd10e84e029d52fa31f8ff85e0e6291311a956121b6289a662f3ddd803b59"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012131899415/254/68107"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24017714626471/10/20568",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-12T21:15:52.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;d2c17835a3848088ecb7052a7dc3f039d6a3bf54f9105dde531f2a928a4a5026?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "aaa9c2af2af620d833b4d3a46c9aad01aad738419fecee5fea162b34968b45ba"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012504626860/254/38002"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012504626860/254/38002"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012787818525/254/13063"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012504626860/254/38002"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-15T11:29:38.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;9cb4dc2c9042d2b9b9c595b8fdc1f18068d974acabccc8e8e04d5b9c77bc0ee6?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "6f2c505b94d6f32386722c0c57dbc13716a62c98190e29c83c2c39f10c9e3d53"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015305730922/10/44810",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-31T05:31:00.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;43230bb22a2b1f55fadf7cff1fa6fb640c012238e9b23ec61864aae1a06600f3?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "63ea27bdf882f79c9c9bf7e582fa295f7503bd748ea941151ac8fedb17ed2285"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/44017792338314/10/76359",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AssociationEvent",
+                "eventTime": "2024-01-14T12:19:25.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;27e1e92e5e6938ae507bc3575bf3457f5226bf8cfd637de9b5d1f257b11da893?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "70405919c9a982220cc1ceba31b223333dcbd7649bc66fa0f354ce2042851469"
+                ],
+                "action": "ADD",
+                "bizStep": "installing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012131899415/254/68107"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "parentID": "https://id.gs1.org/414/0012483342355/254/17399",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24017714626471/10/20568",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-15T14:42:48.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;d265c42da96643b9bb442ffc5f4e79838c2a4fc0c0ce269d98c5126bae2adce9?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "fb78f7ccc507e06d51d147e6c2544b7ff8ca0ef65d36e341a373dbaed771a35f"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-16T07:28:39.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;6b7b3aa2da06d632ad61d4d46d256aa6bf2367520b7e444f9bf48c16c82998b8?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "d265c42da96643b9bb442ffc5f4e79838c2a4fc0c0ce269d98c5126bae2adce9"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012787875818/254/12217"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "AssociationEvent",
+                "eventTime": "2024-01-17T19:51:19.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;27df41ad099933c11aa87158e17612a5904531a5a9b915cd95a43011c49a0052?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "d2c17835a3848088ecb7052a7dc3f039d6a3bf54f9105dde531f2a928a4a5026"
+                ],
+                "action": "ADD",
+                "bizStep": "installing",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012504626860/254/38002"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012504626860/254/38002"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012787818525/254/13063"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012504626860/254/38002"
+                    }
+                ],
+                "parentID": "https://id.gs1.org/414/0012549490761/254/88636",
+                "childQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74016250327281/10/93640",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "TransformationEvent",
+                "eventTime": "2024-02-09T10:09:32.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.615507+00:00",
+                "eventID": "ni:///sha-256;8e1de200f8079552ed8e4cd7d689ae7eee2b04d1f0083907a4861b9b806d7b76?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "9cb4dc2c9042d2b9b9c595b8fdc1f18068d974acabccc8e8e04d5b9c77bc0ee6"
+                ],
+                "bizStep": "commissioning",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "inputQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015305730922/10/44810",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ],
+                "outputQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "TransformationEvent",
+                "eventTime": "2024-02-03T13:40:20.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;30a6853b945b4ac002c994933f9d3cb85bd35f0be7c0fcef9ccf784e22b6ac95?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "43230bb22a2b1f55fadf7cff1fa6fb640c012238e9b23ec61864aae1a06600f3"
+                ],
+                "bizStep": "commissioning",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "inputQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/44017792338314/10/76359",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ],
+                "outputQuantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-21T14:05:51.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;c989259d05dccdec2d765d8e58b6baa98c84241b66cd4e4b2316be3ae080f732?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "27e1e92e5e6938ae507bc3575bf3457f5226bf8cfd637de9b5d1f257b11da893"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012708420486/254/05184"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/84010210336501/10/84869",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-18T17:11:40.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;a2bcbbcf1fdf9b971d2e87d682037dc84bc8def4c4b8e7be98c599fb8699312f?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "6b7b3aa2da06d632ad61d4d46d256aa6bf2367520b7e444f9bf48c16c82998b8"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012787875818/254/12217"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012787875818/254/12217"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012787875818/254/12217"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-18T17:11:40.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;e574044ba6fac13fafa75d1d2d9eb64236b5c43d850259869b6b13f7394438ac?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "a2bcbbcf1fdf9b971d2e87d682037dc84bc8def4c4b8e7be98c599fb8699312f"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012787875818/254/12217"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012787875818/254/12217"
+                },
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012205133285/254/71196"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-27T12:44:01.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;0b839f1b593348a8d1c4b6980f71c739cb6bb31e825c9445e6daeda9ed08ad19?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "e574044ba6fac13fafa75d1d2d9eb64236b5c43d850259869b6b13f7394438ac"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012205133285/254/71196"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012205133285/254/71196"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012787875818/254/12217"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94013403203199/10/62577",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-26T15:42:29.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;5a382c7927a51e9f789cf838109314d55a59f70f716de77ad38757f61f5c63ee?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "27df41ad099933c11aa87158e17612a5904531a5a9b915cd95a43011c49a0052"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012504626860/254/38002"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012504626860/254/38002"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012504626860/254/38002"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012544223876/254/45164"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-18T12:31:19.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;077b9689640d0b5a73c2ec57a952715a26dfc7275b32cea1f47811ec4288b8a6?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "8e1de200f8079552ed8e4cd7d689ae7eee2b04d1f0083907a4861b9b806d7b76"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-10T12:43:55.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;1eaaec7e47c20a5d49fbadbc03e35bf25ffbb3d2abee76ac4e3155afce3b05f3?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "30a6853b945b4ac002c994933f9d3cb85bd35f0be7c0fcef9ccf784e22b6ac95"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012424153194/254/21015"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-23T22:35:35.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;5ffe2bac25c2ab5d5429b99026d88a3cbed1b1ad19f96f3880910aa89d6aa763?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "c989259d05dccdec2d765d8e58b6baa98c84241b66cd4e4b2316be3ae080f732"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012708420486/254/05184"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/84010210336501/10/84869",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-01-23T22:35:35.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;6a7f772e6458666818bb50d084c323972a402c9b14f0d15a19ac25799b8802a4?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "5ffe2bac25c2ab5d5429b99026d88a3cbed1b1ad19f96f3880910aa89d6aa763"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012967045369/254/44627"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/84010210336501/10/84869",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-01T12:05:01.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;7ade2c8482b4dec28ca6d67a46ede6803d43b28fd7bc4e4775024b45b088aad3?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "6a7f772e6458666818bb50d084c323972a402c9b14f0d15a19ac25799b8802a4"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012967045369/254/44627"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012967045369/254/44627"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012708420486/254/05184"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/84010210336501/10/84869",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-02T16:14:33.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;077273fd30e426a18bbe9a9343735aace4f06c496ca0059c7370be04ae674d23?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "5a382c7927a51e9f789cf838109314d55a59f70f716de77ad38757f61f5c63ee"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012544223876/254/45164"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012544223876/254/45164"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012504626860/254/38002"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012544223876/254/45164"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-03T00:23:21.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;03f4521ef054e796d2b7fed729658c261796e50c44228b75386614e13b8e0e76?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "077273fd30e426a18bbe9a9343735aace4f06c496ca0059c7370be04ae674d23"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012544223876/254/45164"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012544223876/254/45164"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012544223876/254/45164"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012737315296/254/04070"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-27T10:06:32.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;afc086d7c8dedc8af6113838d29343b68ef269cad2e0789e22c4f62edb524caf?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "077b9689640d0b5a73c2ec57a952715a26dfc7275b32cea1f47811ec4288b8a6"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-01T08:27:08.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;3f7fb6c32ce3b9e1934997f8579d60fbaf46f4a48687cd26aae9700e6aa1bbb6?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "afc086d7c8dedc8af6113838d29343b68ef269cad2e0789e22c4f62edb524caf"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012648345993/254/26666"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-11T01:55:30.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;993f2c775b0dbdcaf9c4f29cef4e2f7a3bdec98f73d5b2f088f9a176bd967f33?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "1eaaec7e47c20a5d49fbadbc03e35bf25ffbb3d2abee76ac4e3155afce3b05f3"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012424153194/254/21015"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012424153194/254/21015"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012424153194/254/21015"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-18T23:07:20.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;d793b44e9cf3ab628465e91d3d1f6b7a8efd36b92ec21b55c25547fe1c9994fb?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "993f2c775b0dbdcaf9c4f29cef4e2f7a3bdec98f73d5b2f088f9a176bd967f33"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012424153194/254/21015"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012424153194/254/21015"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012424153194/254/21015"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012708420486/254/05184"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-08T05:42:45.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;d47c97ea1157d74ffe6b22ec93ab031eec1f9fb102b6020edde6b22101131169?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "03f4521ef054e796d2b7fed729658c261796e50c44228b75386614e13b8e0e76"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012737315296/254/04070"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012737315296/254/04070"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012544223876/254/45164"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012737315296/254/04070"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-12T16:17:10.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;3b1694e7a191aa1e2a22fc164be14cfe466b65c796598b8af75c8b0921d60173?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "d47c97ea1157d74ffe6b22ec93ab031eec1f9fb102b6020edde6b22101131169"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012737315296/254/04070"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012737315296/254/04070"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012737315296/254/04070"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-10T00:52:30.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;037f7729fea3210fd45cab3c6f1f496c15f0e07ed98666632e159282503d1ead?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "3f7fb6c32ce3b9e1934997f8579d60fbaf46f4a48687cd26aae9700e6aa1bbb6"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012648345993/254/26666"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-10T00:52:30.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;48084dc6cfb7bfa2f99ec0243d4ba8e08a7438047c9835162fabf571a1273a9a?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "037f7729fea3210fd45cab3c6f1f496c15f0e07ed98666632e159282503d1ead"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012301242959/254/65188"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-18T04:12:46.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;e7de46c0d92b1c207900ebeb7a1324f3e31224d768508a7f3344a4a063626a8f?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "48084dc6cfb7bfa2f99ec0243d4ba8e08a7438047c9835162fabf571a1273a9a"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012301242959/254/65188"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012301242959/254/65188"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012648345993/254/26666"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/24014500852984/10/04629",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-27T16:11:36.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;bd1151d254b77ea2c41f08a928f1c9058fa9f7817079c538b63c73f3fd5b6498?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "d793b44e9cf3ab628465e91d3d1f6b7a8efd36b92ec21b55c25547fe1c9994fb"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012424153194/254/21015"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012708420486/254/05184"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-27T16:11:36.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;512e298a0c6152a9fd62845724fbb960fa3f15265ab27aa585b33f24f7133750?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "bd1151d254b77ea2c41f08a928f1c9058fa9f7817079c538b63c73f3fd5b6498"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012708420486/254/05184"
+                },
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012228227404/254/31490"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-06T22:27:42.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;09700bf8de9c369645c6e6e8ba0562e2a24119d6c77a8fbe91a4c704856ef531?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "512e298a0c6152a9fd62845724fbb960fa3f15265ab27aa585b33f24f7133750"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012228227404/254/31490"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012228227404/254/31490"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012708420486/254/05184"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/94015927117983/10/73056",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-20T12:32:38.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;92043bc564866ccea3b9a11acf1b5b4369ceb32441bcb6c872d9a325cd2d6748?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "3b1694e7a191aa1e2a22fc164be14cfe466b65c796598b8af75c8b0921d60173"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012737315296/254/04070"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-26T18:57:56.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;d733d189bdf068a5f001be3c57c88952ec823acf90865e6280ea1d22cc726695?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "92043bc564866ccea3b9a11acf1b5b4369ceb32441bcb6c872d9a325cd2d6748"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012369739187/254/64566"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-02-28T03:15:23.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;01a27d288512bc5b05bd2c88c9b89c7e727dd2828548954a15ce9054e554f0e8?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "d733d189bdf068a5f001be3c57c88952ec823acf90865e6280ea1d22cc726695"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012369739187/254/64566"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-05T18:08:58.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;88b8ed8a9c136b125c9df47318e394b8aff5d25196cdbf2c78667ad7afaaf7d4?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "01a27d288512bc5b05bd2c88c9b89c7e727dd2828548954a15ce9054e554f0e8"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012647028545/254/90793"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-05T21:38:38.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;b9770570ee28abda84ec521277b957eaad67385b4cc0a48c461c39731800c5e8?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "88b8ed8a9c136b125c9df47318e394b8aff5d25196cdbf2c78667ad7afaaf7d4"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012647028545/254/90793"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-15T00:26:16.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;1be6b9b69914f9e6618145fc6323b07026d9e7d39db8952eca3a3f9854f654f8?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "b9770570ee28abda84ec521277b957eaad67385b4cc0a48c461c39731800c5e8"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012189113419/254/82177"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-21T11:50:24.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;081c9b260a6784df6e00405b830c9f9f1ebf0a4071de713a5a1fad225c26645a?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "1be6b9b69914f9e6618145fc6323b07026d9e7d39db8952eca3a3f9854f654f8"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012189113419/254/82177"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-26T09:32:26.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;f04002bce6bfbad4a7db2086496d22ce678ecc2069e14e3bd46debce820deb99?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "081c9b260a6784df6e00405b830c9f9f1ebf0a4071de713a5a1fad225c26645a"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012742973573/254/10897"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-03-26T09:50:37.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;2c6db3a1d64a22f0a598ca5a61b06cf5acedeca1919cc44f33ec4e5ee82265e5?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "f04002bce6bfbad4a7db2086496d22ce678ecc2069e14e3bd46debce820deb99"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012742973573/254/10897"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-04-01T19:56:11.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;05710f459dd31d028f9922933ac837780250e435a22fcb669f29f632b79eded9?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "2c6db3a1d64a22f0a598ca5a61b06cf5acedeca1919cc44f33ec4e5ee82265e5"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012437419270/254/33073"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012648345993/254/26666"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-04-05T20:52:50.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;8e64c4faa51923d427f95a13968d831cd7be14a4e8338e11d864e6c2ba7ae57d?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "05710f459dd31d028f9922933ac837780250e435a22fcb669f29f632b79eded9"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012437419270/254/33073"
+                    }
+                ],
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012648345993/254/26666"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-04-05T20:52:50.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;f2fa040c8516e41666a653220d20520564198f01e01f8f628f777b9479d799db?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "8e64c4faa51923d427f95a13968d831cd7be14a4e8338e11d864e6c2ba7ae57d"
+                ],
+                "action": "ADD",
+                "bizStep": "shipping",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012648345993/254/26666"
+                },
+                "destinationList": [
+                    {
+                        "type": "location",
+                        "destination": "https://id.gs1.org/414/0012205133285/254/71196"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            },
+            {
+                "type": "ObjectEvent",
+                "eventTime": "2024-04-09T00:12:39.000000+00:00",
+                "eventTimeZoneOffset": "+00:00",
+                "recordTime": "2025-04-11T12:21:39.616511+00:00",
+                "eventID": "ni:///sha-256;14bf61f7fc5de36a2b5fefbcd4a189cabe127b5b29df1a416e440ff415864fa5?ver=CBV2.0",
+                "fdaftr:prevID": [
+                    "f2fa040c8516e41666a653220d20520564198f01e01f8f628f777b9479d799db"
+                ],
+                "action": "ADD",
+                "bizStep": "receiving",
+                "readPoint": {
+                    "id": "https://id.gs1.org/414/0012205133285/254/71196"
+                },
+                "bizLocation": {
+                    "id": "https://id.gs1.org/414/0012205133285/254/71196"
+                },
+                "sourceList": [
+                    {
+                        "type": "location",
+                        "source": "https://id.gs1.org/414/0012648345993/254/26666"
+                    }
+                ],
+                "quantityList": [
+                    {
+                        "epcClass": "https://id.gs1.org/01/74015009757867/10/69307",
+                        "quantity": 1,
+                        "uom": "LBS"
+                    }
+                ]
+            }
+        ]
+    },
+    "@context": [
+        "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+        {
+            "cbvmda": "urn:epcglobal:cbv:mda:"
+        },
+        {
+            "fdaftr": "fdaftr"
+        }
+    ]
+}
