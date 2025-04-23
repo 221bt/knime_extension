@@ -7,4 +7,6 @@ long_description: Convert EPCIS 2.0 Document to FoodChain Lab Document
 group_id: 221bt.knime
 version: 0.1.2 # Version of this Python node extension
 vendor: 221bt
+feature_dependencies:
+  - org.knime.features.python3.scripting
 license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
